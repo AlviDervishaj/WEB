@@ -1,0 +1,53 @@
+html,
+body {
+  overflow: hidden;
+  width: 100dvw;
+  height: 100dvh;
+  padding: 0;
+  margin: 0;
+}
+
+#big {
+  width: 100dvw;
+  height: 100dvh;
+  position: relative;
+  overflow: hidden;
+  transition: ease-in-out;
+  transition-timing-function: ease-in;
+}
+
+.small {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: 50%; 
+  right: 50%;
+  transform: translate(50%,-50%);
+  background-color: #4a4e69;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.first {
+  z-index: 99999;
+}
+
+.move_me {
+  width: fit-content;
+  height: fit-content;
+  color: #fdf0d5;
+}
+
+
