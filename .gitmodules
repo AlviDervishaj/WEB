@@ -1,3 +1,9 @@
 [submodule "galvery"]
 	path = galvery
 	url = https://github.com/AlviDervishaj/Galvery
+[submodule "portfolio"]
+	path = portfolio
+	url = https://github.com/AlviDervishaj/portfolioV2
+[submodule "first_rent"]
+	path = first_rent
+	url = https://github.com/AlviDervishaj/first_rent_demo
